@@ -7,12 +7,12 @@
 
 #include <iostream>
 
-/*int inputNumber()
+int inputNumber()
 {
     int x;
     std::cout << "Enter an integer: ";
     std::cin >> x;
-    return 0;
+    return x;
 }
 
 int doubleNumber()
@@ -26,9 +26,9 @@ int main()
     int y = inputNumber();
     int z = (y * 2);
     std::cout << "Double that number is: " << z;
-}*/
+}
 
-int main()
+/*int main()
 {
     int x{};
     std::cout << "Enter an integer: ";
@@ -47,5 +47,5 @@ int main()
     //std::cout <<'\n';
     std::cout << a << " + " << b << " = " << a+b << '\n';
     std::cout << a << " - " << b << " = " << a-b << '\n';
-}
+}*/
  
