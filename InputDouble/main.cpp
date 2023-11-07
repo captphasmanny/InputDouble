@@ -22,10 +22,13 @@ void doubleNumber()
 
 int main()
 {
-    int y = inputNumber();
+    int y{inputNumber()};
     int z = (y * 2);
     doubleNumber();
     std::cout << z << '\n';
+    int a{inputNumber()};
+    std::cout << a << " + 4 = " << a+4 << '\n';
+    return 0;
 }
 
 /*int main()
