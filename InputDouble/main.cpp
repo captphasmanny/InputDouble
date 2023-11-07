@@ -15,17 +15,17 @@ int inputNumber()
     return x;
 }
 
-int doubleNumber()
+void doubleNumber()
 {
     std::cout << "Double that number is: ";
-    return 0;
 }
 
 int main()
 {
     int y = inputNumber();
     int z = (y * 2);
-    std::cout << "Double that number is: " << z;
+    doubleNumber();
+    std::cout << z << '\n';
 }
 
 /*int main()
